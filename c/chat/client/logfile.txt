@@ -1,0 +1,28 @@
+Log file opened.
+Connecting to localhost on port 6560
+chatd: >> welcome!  Enter a nickname: nerr
+
+chatd: >> welcome, nerr.  Quit by typing '/quit' or '/q'.
+chatd: >> 'nerr' joined channel '#default'
+sup yo
+<nerr> sup yo
+/channel #code
+chatd: >> command '/channel' is invalid
+[?1;2c[?1;2c
+<nerr> [?1;2c[?1;2c
+/join #code
+chatd: >> 'nerr' joined channel '#code'
+test
+<nerr> test
+ yo
+<nerr>  yo
+yoooo
+<nerr> yoooo
+yooo
+<nerr> yooo
+/join #default
+chatd: >> 'nerr' joined channel '#default'
+test
+<nerr> test
+hey
+<nerr> hey
