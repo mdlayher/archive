@@ -1,0 +1,9 @@
+language: go
+go:
+  - 1.2
+services:
+  - memcached
+script:
+  - go get github.com/mdlayher/goset
+  - make
+  - ./bin/tcparity -test -servers="localhost:11211"
