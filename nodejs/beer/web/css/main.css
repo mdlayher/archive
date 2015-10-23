@@ -1,0 +1,175 @@
+/* main.css for mdlayher.com */
+/* Matt Layher, 2012 */
+
+/* Larger screen widths (HDTV) */
+@media screen and (max-width: 2000px)
+{
+	body {
+		font-size: 200% !important;
+	}
+}
+
+@media screen and (max-width: 1800px)
+{
+	body {
+		font-size: 180% !important;
+	}
+}
+
+@media screen and (max-width: 1620px)
+{
+	body {
+		font-size: 160% !important;
+	}
+}
+
+@media screen and (max-width: 1450px)
+{
+	body {
+		font-size: 140% !important;
+	}
+}
+
+/* Average screen widths (laptop/computer) */
+@media screen and (max-width: 1280px)
+{
+	body {
+		font-size: 120% !important;
+	}
+}
+
+@media screen and (max-width: 1100px)
+{
+	body {
+		font-size: 110% !important;
+	}
+}
+
+
+/* Smaller screen widths (mobile) */
+@media screen and (max-width: 1000px)
+{
+	body {
+		font-size: 100% !important;
+	}
+}
+
+@media screen and (max-width: 920px)
+{
+	body {
+		font-size: 80% !important;
+	}
+}
+
+@media screen and (max-width: 740px)
+{
+	body {
+		font-size: 60% !important;
+	}
+}
+
+/* Shrink to 1-column layout for mobile devices */
+@media screen and (max-width: 600px)
+{
+	h1 {
+		font-size: 230% !important;	
+	}
+
+	#chart {
+		-moz-column-count: 1 !important;
+		-webkit-column-count: 1 !important;
+		column-count: 1 !important;
+		font-size: 150% !important;
+	}
+}
+
+@media screen and (max-width: 420px)
+{
+	h1 {
+		font-size: 150% !important;
+	}
+
+	#chart {
+		font-size: 100% !important;
+	}
+}
+
+/* Main CSS */
+body
+{
+	background-image: url('/img/dark_geometric.png');
+	background-repeat: repeat;
+	font-family: arial;
+	font-weight: bold;
+	font-size: 125%;
+	margin-left: auto;
+	margin-right: auto;
+	width: 95%;
+	color: white;
+}
+
+h1
+{
+	margin-top: 0em;
+	margin-bottom: 0em;
+	text-align: center;
+	font-size: 3.0em;
+}
+
+h2
+{
+	text-align: center;
+	font-size: 2.0em;
+	text-decoration: blink;
+}
+
+table {
+	border-collapse: collapse;
+	border: 2px solid white;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+td {
+	border: 2px solid white;
+	font-size: 2.0em;
+	padding: 2px 5px 2px 5px;
+	text-align: right;
+}
+
+#chart {
+	-moz-column-count: 2;
+	-webkit-column-count: 2;
+	column-count: 2;
+}
+
+.small {
+	font-size: 0.8em;
+}
+
+.green {
+	color: #00FF00;
+}
+
+
+.red {
+	color: #FF0000;
+}
+
+/* marquee CSS */
+#ticker {
+	position: relative;
+	overflow: hidden;
+	width: 100%;
+	font-size: 1.5em;
+}
+#ticker .sections {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	white-space: nowrap;
+}
+#ticker .section {
+	padding: 0px 3px;
+	float: left;
+}
